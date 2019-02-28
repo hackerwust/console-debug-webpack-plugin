@@ -2,12 +2,23 @@ module.exports = {
     "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module",
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2018
     },
     "extends": [
         "eslint:recommended"
         // "plugin:react/recommended"
     ],
+
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "amd": true,
+        "jquery": true,
+        "mocha": true,
+        "es6": true
+    },
+
     "rules": {
         // "react/prop-types": ["off"],
         "comma-dangle": ["error", "never"],
