@@ -1,0 +1,7 @@
+**/node_modules/*
+src/*
+mock/*
+build/*
+shell/*
+release/*
+dist/*

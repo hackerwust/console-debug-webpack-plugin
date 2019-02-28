@@ -1,0 +1,40 @@
+{
+  "name": "console-debug-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack plugin for mobile console debug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "files/",
+    "lib/",
+    "index.js"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,jsx}": [
+        "eslint --fix",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/**/*.js"
+    ]
+  },
+  "keywords": [
+    "console",
+    "webpack",
+    "mobile debug",
+    "vConsole.log",
+    "plugin",
+    "console-debug-webpack-plugin"
+  ],
+  "author": "xiaochan",
+  "license": "ISC"
+}
