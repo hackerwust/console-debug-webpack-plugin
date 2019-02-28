@@ -32,7 +32,7 @@
     "plugin",
     "console-debug-webpack-plugin"
   ],
-  "author": "xiaochan",
+  "author": "xiaochan(1427182960@qq.com)",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
